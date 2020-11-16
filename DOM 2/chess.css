@@ -1,0 +1,7 @@
+.gameBoard{
+  border: gray solid 1px;
+}
+.gameCell{
+  border: gray solid 1px;
+  display: inline-block;
+}

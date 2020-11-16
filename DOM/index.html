@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+  <script type="text/javascript">
+
+  let elementOne = document.createElement("p");
+  let text_elementOne = document.createTextNode("new text");
+
+  elementOne.appendChild(text_elementOne);
+
+  let att_elementOne = document.createAttribute("class");
+  att_elementOne.value = "chtoto";
+  elementOne.attributes.setNamedItem(att_elementOne);
+
+  document.body.appendChild(elementOne);
+
+  </script>
+</html>
